@@ -5,7 +5,7 @@ function Footer() {
   const links = [
     {
       name: "Github",
-      link: "https://github.com/",
+      link: "https://github.com/TimeBytes",
     },
     {
       name: "LinkedIn",

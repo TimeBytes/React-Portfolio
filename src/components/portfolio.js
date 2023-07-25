@@ -11,6 +11,12 @@ function Portfolio() {
       repo: "https://github.com/TimeBytes/Tech-Blog",
     },
     {
+      name: "J.A.T.E Text Editor",
+      description: "PWA/IndexedDB/Service Workers",
+      link: "https://immense-anchorage-50069-9be7673abfbc.herokuapp.com/",
+      repo: "https://github.com/TimeBytes/Text-Editor",
+    },
+    {
       name: "Word Day Scheduler",
       description: "HTML/CSS/JavaScript",
       link: "https://timebytes.github.io/Work-Day-Scheduler/",
@@ -23,16 +29,10 @@ function Portfolio() {
       repo: "https://github.com/TimeBytes/Timed-Quiz",
     },
     {
-      name: "CSS Cheat Sheet",
+      name: "Project Tracker",
       description: "HTML/CSS",
-      link: "https://timebytes.github.io/CSS-Cheatsheet-Project/",
-      repo: "https://github.com/TimeBytes/CSS-Cheatsheet-Project",
-    },
-    {
-      name: "Prework Study Guide",
-      description: "HTML/CSS",
-      link: "https://timebytes.github.io/prework-study-guide/",
-      repo: "https://github.com/TimeBytes/prework-study-guide",
+      link: "https://timebytes.github.io/Project-Tracker/",
+      repo: "https://github.com/TimeBytes/Project-Tracker",
     },
   ]);
 
