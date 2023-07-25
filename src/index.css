@@ -93,3 +93,8 @@ footer {
 .project-card {
   background-color: var(--theme-background);
 }
+
+.navActive {
+  color: black;
+  font-weight: bold;
+}

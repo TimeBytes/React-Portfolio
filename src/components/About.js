@@ -1,8 +1,13 @@
 import React from "react";
+const avatar = require("../assets/images/avatar.jpg");
 
 function About() {
   return (
     <section>
+      <div className="d-flex justify-content-center">
+        <img src={avatar} alt="profile" height="250px"></img>
+      </div>
+
       <p className="container">
         Greetings! I'm Andy Zhong, a passionate web development enthusiast
         currently studying Web Development at University of Toronto Bootcamp. My

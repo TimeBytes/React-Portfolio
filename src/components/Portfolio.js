@@ -34,6 +34,12 @@ function Portfolio() {
       link: "https://timebytes.github.io/Project-Tracker/",
       repo: "https://github.com/TimeBytes/Project-Tracker",
     },
+    {
+      name: "Weather Dashboard",
+      description: "JavaScript/Bootstrap",
+      link: "https://timebytes.github.io/Weather-Dashboard/",
+      repo: "https://github.com/TimeBytes/Weather-Dashboard",
+    },
   ]);
 
   return (
