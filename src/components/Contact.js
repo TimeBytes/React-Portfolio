@@ -49,7 +49,7 @@ function Contact() {
       <form
         id="contact-form"
         onSubmit={handleSubmit}
-        className="d-flex flex-column align-items-center"
+        className="d-flex flex-column col-6 m-auto"
       >
         <div>
           <label htmlFor="name" className="form-label">
@@ -92,7 +92,7 @@ function Contact() {
             <p className="contact-form-error">{errorMessage}</p>
           </div>
         )}
-        <button type="submit" className="btn mb-5 align-self-center">
+        <button type="submit" className="btn mb-3 align-self-center text-white">
           Submit
         </button>
       </form>

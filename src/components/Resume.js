@@ -2,19 +2,19 @@ import React from "react";
 
 function Resume() {
   return (
-    <section className="container">
-      <div className="my-2 col-6">
+    <section>
+      <div className="my-2 col-10 m-auto">
         <p>
-          Download my
+          Download my{" "}
           <a
             href="https://www.linkedin.com/in/andyzhong/"
             className="resume-link"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             Resume
-          </a>
+          </a>{" "}
+          Click on more, and a drop down option will appear "Save to PDF"
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">

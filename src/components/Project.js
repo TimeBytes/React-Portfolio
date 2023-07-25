@@ -5,7 +5,7 @@ function Project({ project }) {
   const src = require(`../assets/projects/${name}.png`);
   return (
     <div className="m-3 card project-card p-2" key={name}>
-      <p className="text-center text-whitey">{description}</p>
+      <p className="text-center text-white">{description}</p>
       <img src={src} alt={name} className="img-thumbnail" />
       <div>
         <h3 className="text-center">
