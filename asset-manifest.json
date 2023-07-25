@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TimeBytes/React-Portfolio/static/css/main.d79c293a.css",
-    "main.js": "/TimeBytes/React-Portfolio/static/js/main.38a00460.js",
-    "static/media/Tech Blog.png": "/TimeBytes/React-Portfolio/static/media/Tech Blog.d7722c14183d33bd6d48.png",
-    "static/media/Project Tracker.png": "/TimeBytes/React-Portfolio/static/media/Project Tracker.7d64e36e714d853a2e73.png",
-    "static/media/Timed Quiz.png": "/TimeBytes/React-Portfolio/static/media/Timed Quiz.bc8a2df123fab15a52f8.png",
-    "static/media/Word Day Scheduler.png": "/TimeBytes/React-Portfolio/static/media/Word Day Scheduler.2c15b5acd8143395a1db.png",
-    "static/media/J.A.T.E Text Editor.png": "/TimeBytes/React-Portfolio/static/media/J.A.T.E Text Editor.f6581f0e9be96f1e0be0.png",
-    "static/media/icon-Github.png": "/TimeBytes/React-Portfolio/static/media/icon-Github.1ea0edcf65829af537c7.png",
-    "static/media/icon-Twitter.png": "/TimeBytes/React-Portfolio/static/media/icon-Twitter.7e0bb0beadda14f535f2.png",
-    "index.html": "/TimeBytes/React-Portfolio/index.html",
-    "main.d79c293a.css.map": "/TimeBytes/React-Portfolio/static/css/main.d79c293a.css.map",
-    "main.38a00460.js.map": "/TimeBytes/React-Portfolio/static/js/main.38a00460.js.map"
+    "main.css": "/React-Portfolio/static/css/main.d79c293a.css",
+    "main.js": "/React-Portfolio/static/js/main.b817bfdd.js",
+    "static/media/Tech Blog.png": "/React-Portfolio/static/media/Tech Blog.d7722c14183d33bd6d48.png",
+    "static/media/Project Tracker.png": "/React-Portfolio/static/media/Project Tracker.7d64e36e714d853a2e73.png",
+    "static/media/Timed Quiz.png": "/React-Portfolio/static/media/Timed Quiz.bc8a2df123fab15a52f8.png",
+    "static/media/Word Day Scheduler.png": "/React-Portfolio/static/media/Word Day Scheduler.2c15b5acd8143395a1db.png",
+    "static/media/J.A.T.E Text Editor.png": "/React-Portfolio/static/media/J.A.T.E Text Editor.f6581f0e9be96f1e0be0.png",
+    "static/media/icon-Github.png": "/React-Portfolio/static/media/icon-Github.1ea0edcf65829af537c7.png",
+    "static/media/icon-Twitter.png": "/React-Portfolio/static/media/icon-Twitter.7e0bb0beadda14f535f2.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d79c293a.css.map": "/React-Portfolio/static/css/main.d79c293a.css.map",
+    "main.b817bfdd.js.map": "/React-Portfolio/static/js/main.b817bfdd.js.map"
   },
   "entrypoints": [
     "static/css/main.d79c293a.css",
-    "static/js/main.38a00460.js"
+    "static/js/main.b817bfdd.js"
   ]
 }
