@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d79c293a.css",
-    "main.js": "/React-Portfolio/static/js/main.b817bfdd.js",
+    "main.css": "/React-Portfolio/static/css/main.47f45a3c.css",
+    "main.js": "/React-Portfolio/static/js/main.9ca8eb9b.js",
     "static/media/Tech Blog.png": "/React-Portfolio/static/media/Tech Blog.d7722c14183d33bd6d48.png",
     "static/media/Project Tracker.png": "/React-Portfolio/static/media/Project Tracker.7d64e36e714d853a2e73.png",
     "static/media/Timed Quiz.png": "/React-Portfolio/static/media/Timed Quiz.bc8a2df123fab15a52f8.png",
@@ -10,11 +10,11 @@
     "static/media/icon-Github.png": "/React-Portfolio/static/media/icon-Github.1ea0edcf65829af537c7.png",
     "static/media/icon-Twitter.png": "/React-Portfolio/static/media/icon-Twitter.7e0bb0beadda14f535f2.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.d79c293a.css.map": "/React-Portfolio/static/css/main.d79c293a.css.map",
-    "main.b817bfdd.js.map": "/React-Portfolio/static/js/main.b817bfdd.js.map"
+    "main.47f45a3c.css.map": "/React-Portfolio/static/css/main.47f45a3c.css.map",
+    "main.9ca8eb9b.js.map": "/React-Portfolio/static/js/main.9ca8eb9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d79c293a.css",
-    "static/js/main.b817bfdd.js"
+    "static/css/main.47f45a3c.css",
+    "static/js/main.9ca8eb9b.js"
   ]
 }
