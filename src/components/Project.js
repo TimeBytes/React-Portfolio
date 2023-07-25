@@ -4,16 +4,29 @@ function Project({ project }) {
   const { name, repo, link, description } = project;
   const src = require(`../assets/projects/${name}.png`);
   return (
-    <div className="project" key={name}>
-      <img src={src} alt={name} className="img-thumbnail w-25" />
+    <div className="m-3 card project-card p-2" key={name}>
+      <p className="text-center text-whitey">{description}</p>
+      <img src={src} alt={name} className="img-thumbnail" />
       <div>
-        <h3>
-          <a href={link}>{name}</a>{" "}
-          <a href={repo}>
-            <i className="fab fa-github"></i>
+        <h3 className="text-center">
+          <a
+            href={link}
+            className="project-links"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {name}
+          </a>{" "}
+          <br></br>
+          <a
+            href={repo}
+            className="project-links"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
           </a>
         </h3>
-        <p>{description}</p>
       </div>
     </div>
   );

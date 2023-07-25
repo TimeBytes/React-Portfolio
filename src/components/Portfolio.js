@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Project from "../components/Project";
+import Project from "./Project";
 
 function Portfolio() {
   // Replace links with deployed projects and GitHub repos
@@ -38,7 +38,7 @@ function Portfolio() {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="d-flex flex-row flex-wrap justify-content-center col-10 m-auto">
         {projects.map((project, idx) => (
           <Project project={project} key={"project" + idx} />
         ))}

@@ -1,13 +1,93 @@
+:root {
+  --theme-text: #dcd8d5;
+  --theme-background: #6c7cbe;
+  --theme-purple-light: #673cec;
+  --theme-purple-dark: #432196;
+}
+
+html {
+  font-size: 24px;
+}
+
 body {
-  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: var(--theme-text);
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Your existing styles */
+
+.btn {
+  background-color: var(--theme-purple-light);
+  color: var(--theme-text);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--theme-purple-dark);
+}
+
+.project-links {
+  text-decoration: none;
+  color: white;
+}
+.resume-link {
+  text-decoration: none;
+  color: var(--theme-purple-dark);
+}
+.resume-link:hover {
+  text-decoration: none;
+  color: var(--theme-purple-light);
+}
+.project-links:hover {
+  text-decoration: none;
+  color: var(--theme-purple-dark);
+}
+
+.contact-form-error {
+  color: var(--theme-text);
+  background-color: rgb(143, 37, 37);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+header,
+footer {
+  color: white;
+  background-color: var(--theme-background);
+}
+
+.nav-links:hover {
+  color: black;
+}
+
+main {
+  flex: 1;
+}
+
+/* Add the following styles for the sticky footer */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  padding: 10px;
+  color: var(--theme-text);
+  background-color: var(--theme-background);
+}
+
+.project-card {
+  background-color: var(--theme-background);
 }

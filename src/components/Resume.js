@@ -2,11 +2,19 @@ import React from "react";
 
 function Resume() {
   return (
-    <section className="my-5">
-      <div className="my-2">
+    <section className="container">
+      <div className="my-2 col-6">
         <p>
-          Download my{" "}
-          <a href="https://www.linkedin.com/in/andyzhong/">resume</a>
+          Download my
+          <a
+            href="https://www.linkedin.com/in/andyzhong/"
+            className="resume-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Resume
+          </a>
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">

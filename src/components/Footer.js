@@ -6,19 +6,22 @@ function Footer() {
     {
       name: "Github",
       link: "https://github.com/TimeBytes",
+      src: require("../assets/icons/icon-Github.png"),
     },
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/",
+      link: "https://www.linkedin.com/in/andyzhong/",
+      src: require("../assets/icons/icon-LinkedIn.png"),
     },
     {
       name: "Twitter",
-      link: "https://stackoverflow.com/",
+      link: "https://twitter.com/TimeBytes",
+      src: require("../assets/icons/icon-Twitter.png"),
     },
   ];
-
+  const iconSize = 50;
   return (
-    <footer className="d-flex flex-row px-1 justify-content-center">
+    <footer className="d-flex flex-row justify-content-center col-12">
       {links.map((link) => (
         <a
           href={link.link}
@@ -27,8 +30,11 @@ function Footer() {
           rel="noopener noreferrer"
           className="mx-3"
         >
-          <i className={link.name}></i>
-          {link.name}
+          <img
+            src={link.src}
+            alt={link.name}
+            style={{ width: iconSize, height: iconSize }}
+          ></img>
         </a>
       ))}
     </footer>

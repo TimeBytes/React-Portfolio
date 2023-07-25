@@ -46,40 +46,55 @@ function Contact() {
 
   return (
     <section>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form
+        id="contact-form"
+        onSubmit={handleSubmit}
+        className="d-flex flex-column align-items-center"
+      >
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name" className="form-label">
+            Name:
+          </label>
           <input
             type="text"
             name="name"
             defaultValue={name}
             onBlur={handleChange}
+            className="form-control my-1"
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email" className="form-label">
+            Email address:
+          </label>
           <input
             type="email"
             name="email"
             defaultValue={email}
             onBlur={handleChange}
+            className="form-control my-1"
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message" className="form-label">
+            Message:
+          </label>
           <textarea
             name="message"
             rows="5"
             defaultValue={message}
             onBlur={handleChange}
+            className="form-control my-1"
           />
         </div>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="contact-form-error">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button type="submit" className="btn mb-5 align-self-center">
+          Submit
+        </button>
       </form>
     </section>
   );

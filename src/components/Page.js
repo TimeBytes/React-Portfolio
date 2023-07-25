@@ -23,7 +23,7 @@ function Page({ currentPage }) {
 
   return (
     <main>
-      <h2>{currentPage.name}</h2>
+      <h2 className="text-center mt-3">{currentPage.name}</h2>
       <Content>{renderPage()}</Content>
     </main>
   );

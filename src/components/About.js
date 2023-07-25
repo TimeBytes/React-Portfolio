@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section>
-      <p>
+      <p className="container">
         Greetings! I'm Andy Zhong, a passionate web development enthusiast
         currently studying Web Development at University of Toronto Bootcamp. My
         journey in the world of programming began back in high school when I
@@ -15,7 +15,7 @@ function About() {
         coding a central part of my life once again by enrolling in this
         transformative web development bootcamp.
       </p>
-      <p>
+      <p className="container">
         Throughout this immersive experience, I'm relishing the opportunity to
         refine my skills in web development and dive deep into the realms of
         front-end and back-end technologies. The blend of creativity and logic

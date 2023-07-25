@@ -15,15 +15,15 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
+    <div className="wrapper">
       <Header>
         <Nav
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-        ></Nav>
+        />
       </Header>
-      <Page currentPage={currentPage}></Page>
+      <Page currentPage={currentPage} />
       <Footer />
     </div>
   );
