@@ -63,10 +63,13 @@ body {
   text-align: center;
 }
 
-header,
-footer {
+header {
   color: white;
-  background-color: var(--theme-background);
+  background-image: linear-gradient(
+    to top,
+    var(--theme-background) 40%,
+    var(--theme-purple-dark) 100%
+  );
 }
 
 .nav-links:hover {
@@ -87,7 +90,11 @@ main {
 footer {
   padding: 10px;
   color: var(--theme-text);
-  background-color: var(--theme-background);
+  background-image: linear-gradient(
+    to bottom,
+    var(--theme-background) 20%,
+    var(--theme-purple-dark) 100%
+  );
 }
 
 .project-card {

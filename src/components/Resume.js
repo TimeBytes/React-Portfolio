@@ -1,5 +1,5 @@
 import React from "react";
-
+const resume = require("../assets/resume/Resume.pdf");
 function Resume() {
   return (
     <section>
@@ -7,14 +7,14 @@ function Resume() {
         <p>
           Download my{" "}
           <a
-            href="https://www.linkedin.com/in/andyzhong/"
+            href={resume}
             className="resume-link"
             target="_blank"
+            download
             rel="noreferrer"
           >
             Resume
           </a>{" "}
-          Click on more, and a drop down option will appear "Save to PDF"
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
