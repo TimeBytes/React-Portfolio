@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.1ffd7959.css",
-    "main.js": "/React-Portfolio/static/js/main.e58fcbf2.js",
+    "main.js": "/React-Portfolio/static/js/main.c6627e6b.js",
     "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.b6e5b51c680bdeb2d933.pdf",
     "static/media/Weather Dashboard.png": "/React-Portfolio/static/media/Weather Dashboard.bb3c0517e0239c6b4b5b.png",
     "static/media/Tech Blog.png": "/React-Portfolio/static/media/Tech Blog.d7722c14183d33bd6d48.png",
     "static/media/Project Tracker.png": "/React-Portfolio/static/media/Project Tracker.7d64e36e714d853a2e73.png",
     "static/media/Timed Quiz.png": "/React-Portfolio/static/media/Timed Quiz.bc8a2df123fab15a52f8.png",
     "static/media/avatar.jpg": "/React-Portfolio/static/media/avatar.7c715364807abc59fc7e.jpg",
+    "static/media/Budgetwise.png": "/React-Portfolio/static/media/Budgetwise.2e01871dd15fbdbb6c5b.png",
     "static/media/Word Day Scheduler.png": "/React-Portfolio/static/media/Word Day Scheduler.2c15b5acd8143395a1db.png",
     "static/media/J.A.T.E Text Editor.png": "/React-Portfolio/static/media/J.A.T.E Text Editor.f6581f0e9be96f1e0be0.png",
     "static/media/icon-Github.png": "/React-Portfolio/static/media/icon-Github.1ea0edcf65829af537c7.png",
     "static/media/icon-Twitter.png": "/React-Portfolio/static/media/icon-Twitter.7e0bb0beadda14f535f2.png",
     "index.html": "/React-Portfolio/index.html",
     "main.1ffd7959.css.map": "/React-Portfolio/static/css/main.1ffd7959.css.map",
-    "main.e58fcbf2.js.map": "/React-Portfolio/static/js/main.e58fcbf2.js.map"
+    "main.c6627e6b.js.map": "/React-Portfolio/static/js/main.c6627e6b.js.map"
   },
   "entrypoints": [
     "static/css/main.1ffd7959.css",
-    "static/js/main.e58fcbf2.js"
+    "static/js/main.c6627e6b.js"
   ]
 }
